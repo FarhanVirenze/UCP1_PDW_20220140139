@@ -1,0 +1,79 @@
+body {
+    background-color: #f8f9fa;
+  }
+  
+  .container {
+    margin-top: 50px;
+  }
+  
+  .jumbotron {
+    background-image: url('https://via.placeholder.com/150');
+    background-size: cover;
+    color: #343a40;
+    text-align: center;
+  }
+
+  .jumbotron h1, .jumbotron p {
+    color: #343a40;
+  }  
+  
+  .card-header {
+    background-color: #fff;
+  }
+  
+  .card-body {
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+  }
+  
+  .card-body img {
+    margin-right: 20px; /* Untuk memberikan jarak antara gambar dan teks */
+    max-width: 50%; /* Mengecilkan gambar hingga lebar maksimum dari kontainer */
+    height: auto; /* Memastikan gambar tetap proporsional */
+  }
+  
+  .navbar {
+    background-color: #343a40;
+    padding: 16px 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+      padding-top: 10px; /* Atur padding atas navbar menjadi 10px */
+      padding-bottom: 10px; /* Atur padding bawah navbar menjadi 10px */
+  }
+  
+  .navbar-brand, .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 20px; /* Ukuran teks */
+  }
+  
+  .navbar-brand:hover, .navbar-nav .nav-link:hover {
+    color: #17a2b8;
+  }
+
+  #waktu {
+    text-align: center;
+  }
+
+  .carousel-item img {
+    max-width: 100%; /* Atur lebar maksimum gambar sesuai lebar carousel */
+    height: 500px; /* Biarkan tinggi gambar mengikuti proporsi aslinya */
+  }
+
+  .carousel-item {
+    transition: opacity 1s ease-in-out;
+    object-fit: cover; /* Pastikan gambar mencakup seluruh area carousel */
+  }
+
+  .navbar-brand {
+    font-size: 20px; /* Mengurangi ukuran font pada navbar-brand */
+  }
+  
+  .navbar-toggler-icon {
+    font-size: 0.8rem; /* Mengurangi ukuran font pada navbar-toggler-icon */
+  }
+  
+   /* Penyesuaian Warna Footer */
+   footer {
+    background-color: #343a40;
+  }
+  
